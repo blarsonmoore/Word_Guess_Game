@@ -1,0 +1,51 @@
+body {
+  background-color: grey;
+}
+
+#intro {
+  background-color: black;
+  color: white;
+}
+ 
+#remaining {
+  border-style: solid;
+  width: 570px;
+  height: 250px;
+}
+
+#guessed {
+  border-style: solid;
+  width: 570px;
+  height: 250px;
+}
+
+#start {
+  border-style: solid;
+  width: 570px;
+  height: 200px;
+}
+
+#rules {
+  border-style: solid;
+  width: 570px;
+  height: 200px;
+}
+
+#displayWord {
+  border-style: solid;
+  width: 1140px;
+  height: 100px;
+}
+
+#displayWord p {
+  padding: 10px;
+  font-size: 24px;
+}
+
+#wins {
+  color: rgb(46, 197, 46);
+}
+
+#losses {
+  color: red;
+}
