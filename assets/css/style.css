@@ -35,6 +35,9 @@ body {
   border-style: solid;
   width: 1140px;
   height: 100px;
+  padding: 20px;
+  background-color: beige;
+  font-size: 35px;
 }
 
 #displayWord p {

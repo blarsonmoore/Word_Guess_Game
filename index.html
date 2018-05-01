@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-  <script src="./assets/javascript/game.js"></script>
+  <!-- <script src="./assets/javascript/game.js"></script> -->
 </head>
 
 <body>
@@ -32,8 +32,8 @@
         <h2>The internet's #3 word guess game.</h2>
       </div>
       <div id="start" class="col-md-6 text-center">
-          <h1>Click Button To Begin Game</h1>
-          <button id="clickMe" type="button" class="btn btn-primary">Click Me!</button>
+          <h1>Click Button for New Game</h1>
+          <button id="clickMe" type="button" value="Refresh Page" onClick="window.location.reload()" class="btn btn-primary">Click Me!</button>
         </div>
     </div>
     <div class="row">
@@ -46,12 +46,15 @@
             <h3>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h3>
           </div>
       </div>
-      <div class="row">
-          <div id="displayWord" class="col-md-12 text-center">
-            <p>_ _ _ _ _ _ _</p>
-          </div>
+      <div class="row">      
+          <div id="displayWord" class="col-md-12 text-center"></div>
+           
+          <input type="text"><input type="submit">
+        
+        </div>
         </div>
   </div>
+  <script src="./assets/javascript/game.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
